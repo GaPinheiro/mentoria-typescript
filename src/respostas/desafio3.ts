@@ -19,6 +19,7 @@ function somarAoSaldo(soma: number) {
     if (campoSaldo) {
         saldoTotal += soma
         campoSaldo.innerHTML = saldoTotal.toString();
+        console.log(saldoTotal);
         limparCampoSoma();
     }
 }
